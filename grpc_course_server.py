@@ -5,7 +5,7 @@ import course_service_pb2_grpc
 
 class CourseServiceServicer(course_service_pb2_grpc.CourseServiceServicer):
     def GetCourse(self, request, context):
-        print(f'Получим запрос к методу GetCourse от пользователя {request.course_id}')
+        print(f'Получен запрос на получения курса по ID: {request.course_id}')
         return course_service_pb2.GetCourseResponse(course_id=f"{request.course_id}",
             title="Автотесты API", description="Будем изучать написание API автотестов")
 
