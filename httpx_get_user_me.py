@@ -9,9 +9,6 @@ login_payload = {
 login_response = httpx.post("http://localhost:8000/api/v1/authentication/login", json=login_payload)
 login_response_data = login_response.json()
 
-# print("Status code:",  login_response.status_code)
-# print("login response:", login_response_data)
-
 headers = {
     "Authorization": f'Bearer {login_response_data["token"]["accessToken"]}'
 }
