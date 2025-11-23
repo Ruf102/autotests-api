@@ -1,6 +1,8 @@
 from typing import TypedDict
 from httpx import Response
 from clients.api_client import APIClient
+from clients.private_http_builder import AuthenticationUserDict, get_private_http_client
+
 
 class CreateFileRequestDict(TypedDict):
     """
@@ -46,3 +48,11 @@ class FilesClient(APIClient):
             data=request,
             files={"upload_file": open(request['upload_file'], 'rb')}
         )
+
+def get_files_client(user: AuthenticationUserDict) -> FilesClient:
+    """
+    Функция создаёт экземпляр FilesClient с уже настроенным HTTP-клиентом.
+
+    :return:
+    """
+    return FilesClient(client=get_private_http_client(user))
