@@ -13,6 +13,25 @@ class UpdateUserRequestDict(TypedDict):
     firstName: str | None
     middleName: str | None
 
+# Добавили описание структуры пользователя
+class User(TypedDict):
+    """
+    Описание структуры пользователя.
+    """
+    id: str
+    email: str
+    lastName: str
+    firstName: str
+    middleName: str
+
+
+# Добавили описание структуры ответа получения пользователя
+class GetUserResponseDict(TypedDict):
+    """
+    Описание структуры ответа получения пользователя.
+    """
+    user: User
+
 class PrivateUsersClient(APIClient):
     """
     Клиент для работы с /api/v1/user
@@ -54,7 +73,17 @@ class PrivateUsersClient(APIClient):
         """
         return self.delete(f"/api/v1/users/{user_id}")
 
-def get_private_user_client(user: AuthenticationUserDict) -> PrivateUsersClient:
+    def get_user(self, user_id: str) -> GetUserResponseDict:
+        """
+        Метод отправляет запрос на получения пользователя и извлекает JSON из ответа
+
+        :param user_id: Идентификатор пользователя.
+        :return: Ответ от сервера в виде JSON
+        """
+        response = self.get_user_api(user_id)
+        return response.json()
+
+def get_private_users_client(user: AuthenticationUserDict) -> PrivateUsersClient:
     """
     Функция создаёт экземпляр PrivateUsersClient с уже настроенным HTTP-клиентом.
 
