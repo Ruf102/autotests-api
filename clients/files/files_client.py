@@ -49,7 +49,7 @@ class FilesClient(APIClient):
         :return: Ответ от сервера в виде JSON
         """
         response = self.create_file_api(request)
-        return CreateFileResponseSchema.model_validate(response.text)
+        return CreateFileResponseSchema.model_validate_json(response.text)
 
 def get_files_client(user: AuthenticationUserSchema) -> FilesClient:
     """
