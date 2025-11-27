@@ -1,7 +1,4 @@
-import json
-
 import faker
-
 from clients.private_http_builder import AuthenticationUserSchema
 from clients.users.private_users_client import get_private_users_client
 from tools.assertions.schema import validate_json_schema
