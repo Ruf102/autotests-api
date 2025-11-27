@@ -1,5 +1,3 @@
-import faker
-
 from clients.coursrs.courses_client import get_courses_client
 from clients.coursrs.courses_schema import CreateCourseRequestSchema
 from clients.exercises.exercises_client import get_exercise_client
@@ -9,17 +7,16 @@ from clients.files.files_schema import CreateFileRequestSchema
 from clients.private_http_builder import AuthenticationUserSchema
 from clients.users.public_users_client import get_public_users_client
 from clients.users.user_schema import CreateUserRequestSchema
-
-faker = faker.Faker()
+from tools.fakers import fake
 
 # Создаем пользователя
 public_users_client = get_public_users_client()
 create_user_request = CreateUserRequestSchema(
-    email=faker.email(),
-    password=faker.password(),
-    last_name=faker.last_name(),
-    first_name=faker.first_name(),
-    middle_name=faker.first_name()
+    email=fake.email(),
+    password=fake.password(),
+    last_name=fake.last_name(),
+    first_name=fake.first_name(),
+    middle_name=fake.middle_name()
 )
 create_user_response = public_users_client.create_user(create_user_request)
 

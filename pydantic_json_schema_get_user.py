@@ -1,22 +1,21 @@
-import faker
 from clients.private_http_builder import AuthenticationUserSchema
 from clients.users.private_users_client import get_private_users_client
 from tools.assertions.schema import validate_json_schema
 
-faker = faker.Faker()
 
 from clients.users.public_users_client import PublicUsersClient, get_public_users_client
 from clients.users.user_schema import CreateUserRequestSchema, CreateUserResponseSchema, GetUserResponseSchema
+from tools.fakers import fake
 
 public_users_client = get_public_users_client()
 
 
 create_user_request = CreateUserRequestSchema(
-    email=faker.email(),
-    password=faker.password(),
-    last_name=faker.last_name(),
-    first_name=faker.first_name(),
-    middle_name=faker.first_name()
+    email=fake.email(),
+    password=fake.password(),
+    last_name=fake.last_name(),
+    first_name=fake.first_name(),
+    middle_name=fake.middle_name()
 )
 
 create_user_response = public_users_client.create_user(create_user_request)
