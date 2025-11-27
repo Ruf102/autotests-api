@@ -15,7 +15,7 @@ class UserSchema(BaseModel):
 
 class CreateUserRequestSchema(BaseModel):
     """
-    Описание структуры запроса на аутентификацию.
+    Описание структуры запроса на создания пользователя.
     """
     model_config = ConfigDict(populate_by_name=True)
 
