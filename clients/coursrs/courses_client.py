@@ -53,7 +53,7 @@ class CoursesClient(APIClient):
         Метод удаления курса по идентификатору.
 
         :param course_id: Идентификатор курса.
-        :return: Ответ от сервера в виде объекта httpx.Response
+        :return: Ответ от сервера в виде объекта httpx.Response.
         """
         return self.delete(f"/api/v1/courses/{course_id}")
 
