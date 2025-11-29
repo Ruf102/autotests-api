@@ -1,7 +1,7 @@
 from pydantic import BaseModel, Field, ConfigDict
 
 from clients.files.files_schema import FileSchema
-from clients.users.user_schema import UserSchema
+from clients.users.users_schema import UserSchema
 from tools.fakers import fake
 
 

@@ -1,5 +1,5 @@
 from clients.users.public_users_client import get_public_users_client
-from clients.users.user_schema import CreateUserRequestSchema, CreateUserResponseSchema
+from clients.users.users_schema import CreateUserRequestSchema, CreateUserResponseSchema
 # Добавили импорт функции validate_json_schema
 from tools.assertions.schema import validate_json_schema
 from tools.fakers import fake
