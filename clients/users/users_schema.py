@@ -21,13 +21,13 @@ class CreateUserRequestSchema(BaseModel):
     """
     model_config = ConfigDict(populate_by_name=True)
 
-    email: EmailStr = Field(default_factory=fake.email())
+    email: EmailStr = Field(default_factory=fake.email)
     password: str = Field(default_factory=fake.password)
     last_name: str = Field(alias="lastName", default_factory=fake.last_name)
     first_name: str = Field(alias="firstName", default_factory=fake.first_name)
     middle_name: str = Field(alias="middleName", default_factory=fake.middle_name)
 
-class gCreateUserResponseSchema(BaseModel):
+class CreateUserResponseSchema(BaseModel):
     """
     Описание структуры ответа создания пользователя.
     """
