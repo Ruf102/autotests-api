@@ -16,8 +16,8 @@ class LoginRequestSchema(BaseModel):
     """
     Описание структуры запроса на аутентификацию.
     """
-    email: str = Field(default_factory=fake.email())
-    password: str = Field(default_factory=fake.password())
+    email: str = Field(default_factory=fake.email)
+    password: str = Field(default_factory=fake.password)
 
 class RefreshRequestSchema(BaseModel):
     """
