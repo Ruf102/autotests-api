@@ -1,8 +1,6 @@
 from clients.coursrs.courses_schema import UpdateCourseRequestSchema, UpdateCourseResponseSchema, GetCoursesQuerySchema, \
     GetCourseResponseSchema, CourseSchema, GetCoursesResponseSchema, CreateCourseResponseSchema, \
     CreateCourseRequestSchema
-from clients.files.files_schema import CreateFileResponseSchema
-from clients.users.users_schema import CreateUserResponseSchema
 from tools.assertions.base import assert_equal, assert_length
 from tools.assertions.files import assert_file
 from tools.assertions.users import assert_user
@@ -85,7 +83,7 @@ def assert_create_course_response(
 
     :param request: Исходный запрос на создание курса.
     :param response: Ответ API с данными курса.
-    :raises AssertionError: Если данные курсов не совпадают.
+    :raises AssertionError: Если хотя бы одно поле не совпадает.
     """
     assert_equal(response.course.title, request.title, "title")
     assert_equal(response.course.max_score, request.max_score, "max_score")
