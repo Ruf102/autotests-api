@@ -1,7 +1,7 @@
 from httpx import Response
 from clients.api_client import APIClient
 from clients.coursrs.courses_schema import GetCoursesQuerySchema, CreateCourseRequestSchema, UpdateCourseRequestSchema, \
-    CreateCourseResponseSchema
+    CreateCourseResponseSchema, GetCourseResponseSchema
 from clients.private_http_builder import AuthenticationUserSchema, get_private_http_client
 
 
@@ -68,6 +68,18 @@ class CoursesClient(APIClient):
 
         response = self.create_course_api(request)
         return CreateCourseResponseSchema.model_validate_json(response.text)
+
+    def get_course(self, course_id: str) -> GetCourseResponseSchema:
+        """
+        Метод отправляет запрос на создания курса и извлекает JSON из ответа
+
+        :param request: Словарь с title, maxScore, minScore, description, estimatedTime,
+        previewFileId, createdByUserId.
+        :return: Экземпляр модели CreateCourseResponseSchema
+        """
+
+        response = self.get_course_api(course_id)
+        return GetCourseResponseSchema.model_validate_json(response.text)
 
 def get_courses_client(user: AuthenticationUserSchema) -> CoursesClient:
     """
