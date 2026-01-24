@@ -71,7 +71,7 @@ class GetExerciseResponseSchema(BaseModel):
     """
     exercise: ExerciseSchema
 
-class UpdateExercisesResponseSchema(BaseModel):
+class UpdateExerciseResponseSchema(BaseModel):
     """
     Описание структуры ответа на изменение упражнения.
     """

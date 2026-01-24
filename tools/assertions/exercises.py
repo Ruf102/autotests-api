@@ -1,5 +1,5 @@
 from clients.exercises.exercises_schema import CreateExercisesRequestSchema, CreateExercisesResponseSchema, \
-    ExerciseSchema, GetExerciseResponseSchema
+    ExerciseSchema, GetExerciseResponseSchema, UpdateExerciseRequestSchema, UpdateExerciseResponseSchema
 from tools.assertions.base import assert_equal
 
 def assert_exercise(actual: ExerciseSchema, expected: ExerciseSchema):
@@ -48,3 +48,29 @@ def assert_get_exercise_response(
     :raises AssertionError: Если данные файла не совпадают.
     """
     assert_exercise(create_exercise_response.exercise, get_exercise_response.exercise)
+
+def assert_update_exercise_response(
+        request: UpdateExerciseRequestSchema,
+        response: UpdateExerciseResponseSchema
+):
+    """
+    Проверяет, что ответ на обновление задания соответствует запросу на обновление задания.
+
+    :param request: Запрос API на обновление задания.
+    :param response: Ответ API на обновление задания.
+    :return:
+    """
+    if request.title is not None:
+        assert_equal(request.title, response.exercise.title, "title")
+    if request.max_score is not None:
+        assert_equal(request.max_score, response.exercise.max_score, "max_score")
+    if request.min_score is not None:
+        assert_equal(request.min_score, response.exercise.min_score, "min_score")
+    if request.order_index is not None:
+        assert_equal(request.order_index, response.exercise.order_index, "order_index")
+    if request.description is not None:
+        assert_equal(request.description, response.exercise.description, "description")
+    if request.estimated_time is not None:
+        assert_equal(request.estimated_time, response.exercise.estimated_time, "estimated_time")
+
+
