@@ -61,16 +61,16 @@ def assert_update_exercise_response(
     :return:
     """
     if request.title is not None:
-        assert_equal(request.title, response.exercise.title, "title")
+        assert_equal(response.exercise.title, request.title, "title")
     if request.max_score is not None:
-        assert_equal(request.max_score, response.exercise.max_score, "max_score")
+        assert_equal(response.exercise.max_score, request.max_score, "max_score")
     if request.min_score is not None:
-        assert_equal(request.min_score, response.exercise.min_score, "min_score")
+        assert_equal(response.exercise.min_score, request.min_score, "min_score")
     if request.order_index is not None:
-        assert_equal(request.order_index, response.exercise.order_index, "order_index")
+        assert_equal(response.exercise.order_index, request.order_index, "order_index")
     if request.description is not None:
-        assert_equal(request.description, response.exercise.description, "description")
+        assert_equal(response.exercise.description, request.description, "description")
     if request.estimated_time is not None:
-        assert_equal(request.estimated_time, response.exercise.estimated_time, "estimated_time")
+        assert_equal(response.exercise.estimated_time, request.estimated_time, "estimated_time")
 
 
