@@ -1,6 +1,9 @@
+from clients.errors_schema import InternalErrorResponseSchema
 from clients.exercises.exercises_schema import CreateExercisesRequestSchema, CreateExercisesResponseSchema, \
     ExerciseSchema, GetExerciseResponseSchema, UpdateExerciseRequestSchema, UpdateExerciseResponseSchema
 from tools.assertions.base import assert_equal
+from tools.assertions.errors import assert_internal_error_response
+
 
 def assert_exercise(actual: ExerciseSchema, expected: ExerciseSchema):
     """
@@ -45,7 +48,7 @@ def assert_get_exercise_response(
 
     :param get_exercise_response: Ответ API при запросе данных задания.
     :param create_exercise_response: Ответ API при создании задания.
-    :raises AssertionError: Если данные файла не совпадают.
+    :raises AssertionError: Если данные задания не совпадают.
     """
     assert_exercise(create_exercise_response.exercise, get_exercise_response.exercise)
 
@@ -58,7 +61,7 @@ def assert_update_exercise_response(
 
     :param request: Запрос API на обновление задания.
     :param response: Ответ API на обновление задания.
-    :return:
+    :raises AssertionError: Если хотя бы одно поле не совпадает.
     """
     if request.title is not None:
         assert_equal(response.exercise.title, request.title, "title")
@@ -72,5 +75,15 @@ def assert_update_exercise_response(
         assert_equal(response.exercise.description, request.description, "description")
     if request.estimated_time is not None:
         assert_equal(response.exercise.estimated_time, request.estimated_time, "estimated_time")
+
+def assert_exercise_not_found_response(actual: InternalErrorResponseSchema):
+    """
+    Проверяет, что ответ на получение несуществующего задания соответствует ожидаемой валидационной ошибке.
+
+    :param actual: Ответ от API с ошибкой валидации, который необходимо проверить.
+    :raises AssertionError: Если фактический ответ не соответствует ожидаемому.
+    """
+    expected = InternalErrorResponseSchema(detail="Exercise not found")
+    assert_internal_error_response(actual, expected)
 
 
