@@ -1,6 +1,7 @@
 from http import HTTPStatus
 
 import pytest
+from allure_commons.types import Severity
 
 from clients.coursrs.courses_client import CoursesClient
 from clients.coursrs.courses_schema import UpdateCourseRequestSchema, UpdateCourseResponseSchema, GetCoursesQuerySchema, \
@@ -8,14 +9,26 @@ from clients.coursrs.courses_schema import UpdateCourseRequestSchema, UpdateCour
 from fixtures.courses import CourseFixture
 from fixtures.files import FileFixture
 from fixtures.users import UserFixture, function_user
+from tools.allure.epics import AllureEpic
+from tools.allure.features import AllureFeature
+from tools.allure.stories import AllureStory
+from tools.allure.tags import AllureTag
 from tools.assertions.base import assert_status_code
 from tools.assertions.course import assert_update_course_response, assert_course_path_get_match, \
     assert_get_courses_response, assert_create_course_response
 from tools.assertions.schema import validate_json_schema
+import allure
 
 @pytest.mark.courses
 @pytest.mark.regression
+@allure.tag(AllureTag.REGRESSION, AllureTag.COURSES)
+@allure.epic(AllureEpic.LMS)  # Добавили epic
+@allure.feature(AllureFeature.COURSES)  # Добавили feature
 class TestCourses:
+    @allure.tag(AllureTag.UPDATE_ENTITY)
+    @allure.story(AllureStory.UPDATE_ENTITY)  # Добавили story
+    @allure.title("Обновление курса")
+    @allure.severity(Severity.CRITICAL)
     def test_update_course(self, courses_client: CoursesClient, function_course: CourseFixture):
         request_update_course = UpdateCourseRequestSchema()
         request_update_course_data = courses_client.update_course_api(function_course.response.course.id, request_update_course)
@@ -28,6 +41,10 @@ class TestCourses:
         response_get_courses = courses_client.get_course(function_course.response.course.id)
         assert_course_path_get_match(response_get_courses, response_data)
 
+    @allure.tag(AllureTag.GET_ENTITIES)
+    @allure.story(AllureStory.GET_ENTITIES)  # Добавили story
+    @allure.title("Получение курса")
+    @allure.severity(Severity.BLOCKER)
     def test_get_courses(
             self,
             courses_client: CoursesClient,
@@ -44,6 +61,10 @@ class TestCourses:
 
         validate_json_schema(response.json(), response_data.model_json_schema())
 
+    @allure.tag(AllureTag.CREATE_ENTITY)  # Добавили тег
+    @allure.story(AllureStory.CREATE_ENTITY)  # Добавили story
+    @allure.title("Создание курса")
+    @allure.severity(Severity.BLOCKER)
     def test_create_course(
             self,
             courses_client: CoursesClient,
