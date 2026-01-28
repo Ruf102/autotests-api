@@ -24,11 +24,14 @@ import allure
 @allure.tag(AllureTag.REGRESSION, AllureTag.COURSES)
 @allure.epic(AllureEpic.LMS)  # Добавили epic
 @allure.feature(AllureFeature.COURSES)  # Добавили feature
+@allure.parent_suite(AllureEpic.LMS)
+@allure.suite(AllureFeature.COURSES)
 class TestCourses:
     @allure.tag(AllureTag.UPDATE_ENTITY)
     @allure.story(AllureStory.UPDATE_ENTITY)  # Добавили story
     @allure.title("Обновление курса")
     @allure.severity(Severity.CRITICAL)
+    @allure.sub_suite(AllureStory.UPDATE_ENTITY)
     def test_update_course(self, courses_client: CoursesClient, function_course: CourseFixture):
         request_update_course = UpdateCourseRequestSchema()
         request_update_course_data = courses_client.update_course_api(function_course.response.course.id, request_update_course)
@@ -45,6 +48,7 @@ class TestCourses:
     @allure.story(AllureStory.GET_ENTITIES)  # Добавили story
     @allure.title("Получение курса")
     @allure.severity(Severity.BLOCKER)
+    @allure.sub_suite(AllureStory.GET_ENTITIES)
     def test_get_courses(
             self,
             courses_client: CoursesClient,
@@ -65,6 +69,7 @@ class TestCourses:
     @allure.story(AllureStory.CREATE_ENTITY)  # Добавили story
     @allure.title("Создание курса")
     @allure.severity(Severity.BLOCKER)
+    @allure.sub_suite(AllureStory.CREATE_ENTITY)
     def test_create_course(
             self,
             courses_client: CoursesClient,

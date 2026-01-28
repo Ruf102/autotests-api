@@ -20,10 +20,13 @@ import allure
 @allure.tag(AllureTag.REGRESSION, AllureTag.AUTHENTICATION)
 @allure.epic(AllureEpic.LMS)
 @allure.feature(AllureFeature.AUTHENTICATION)  # Добавили feature
+@allure.parent_suite(AllureEpic.LMS)
+@allure.suite(AllureFeature.AUTHENTICATION)
 class TestAuthentication:
     @allure.story(AllureStory.LOGIN)  # Добавили story
     @allure.title("Авторизация с корректным email и password")
     @allure.severity(Severity.BLOCKER)
+    @allure.sub_suite(AllureStory.LOGIN)
     def test_login(self ,authentication_client: AuthenticationClient, function_user: UserFixture):
         request = LoginRequestSchema(email=function_user.email, password=function_user.password)
         response = authentication_client.login_api(request)

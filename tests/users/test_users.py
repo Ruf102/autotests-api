@@ -20,12 +20,15 @@ from allure_commons.types import Severity
 @allure.tag(AllureTag.USERS, AllureTag.REGRESSION)
 @allure.epic(AllureEpic.LMS)  # Добавили epic
 @allure.feature(AllureFeature.USERS)  # Добавили feature
+@allure.parent_suite(AllureEpic.LMS)  # allure.parent_suite == allure.epic
+@allure.suite(AllureFeature.USERS)  # allure.suite == allure.feature
 class TestUsers:
     @pytest.mark.parametrize("email", ["mail.ru", "gmail.com", "example.com"])
     @allure.title("Создание пользователя")
     @allure.tag(AllureTag.CREATE_ENTITY)
     @allure.story(AllureStory.CREATE_ENTITY)  # Добавили story
     @allure.severity(Severity.BLOCKER)
+    @allure.sub_suite(AllureStory.CREATE_ENTITY)  # allure.sub_suite == allure.story
     def test_create_user(self, email: str, public_users_client: PublicUsersClient):
         request = CreateUserRequestSchema(email=fake.email(domain=email))
         response = public_users_client.create_user_api(request)
@@ -41,6 +44,7 @@ class TestUsers:
     @allure.story(AllureStory.GET_ENTITY)  # Добавили story
     @allure.title("Получение информации о текущем пользователе")
     @allure.severity(Severity.CRITICAL)
+    @allure.sub_suite(AllureStory.GET_ENTITY)  # allure.sub_suite == allure.story
     def test_get_user_me(self, private_users_client: PrivateUsersClient, function_user: UserFixture):
         response = private_users_client.get_user_me_api()
         response_data = GetUserResponseSchema.model_validate_json(response.text)
