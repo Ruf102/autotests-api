@@ -1,7 +1,10 @@
+import allure
+
 from clients.errors_schema import ValidationErrorSchema, ValidationErrorResponseSchema, InternalErrorResponseSchema
 from tools.assertions.base import assert_equal, assert_length
 
 
+@allure.step("Check validation error")  # Добавили allure шаг
 def assert_validation_error(actual: ValidationErrorSchema, expected: ValidationErrorSchema):
     """
     Проверяет, что объект ошибки валидации соответствует ожидаемому значению.
@@ -16,6 +19,7 @@ def assert_validation_error(actual: ValidationErrorSchema, expected: ValidationE
     assert_equal(actual.message, expected.message, "message")
     assert_equal(actual.location, expected.location, "location")
 
+@allure.step("Check validation error response")  # Добавили allure шаг
 def assert_validation_error_response(actual: ValidationErrorResponseSchema, expected: ValidationErrorResponseSchema):
     """
     Проверяет, что объект ответа API с ошибками валидации (`ValidationErrorResponseSchema`)
@@ -30,6 +34,7 @@ def assert_validation_error_response(actual: ValidationErrorResponseSchema, expe
     for index, detail in enumerate(expected.details):
         assert_validation_error(actual.details[index], detail)
 
+@allure.step("Check internal error response")  # Добавили allure шаг
 def assert_internal_error_response(actual: InternalErrorResponseSchema, expected: InternalErrorResponseSchema):
     """
     Функция для проверки ошибки, если файл не найден на сервере.
