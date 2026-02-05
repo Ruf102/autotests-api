@@ -12,7 +12,7 @@ class HTTPClientConfig(BaseModel):
 
 
 class TestDataConfig(BaseModel):
-    image_png_file: FilePath
+    image_jpg_file: FilePath
 
 
 class Settings(BaseSettings):
