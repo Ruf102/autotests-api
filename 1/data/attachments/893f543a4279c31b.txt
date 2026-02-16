@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTE2VDA3OjEwOjA4LjQ0NTczOCIsInVzZXJfaWQiOiJlZjczN2YzMi0zYjU4LTQyZmEtYmEwMi1mNDAyNTk0MmFmODQifQ.H_DRuy2vIoLAM_BELpWhVM5BYHiz4Id99yBTg5nkvQU' \
+  -H 'content-length: 345' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Model development we affect evening.","maxScore":59,"minScore":5,"description":"Training along deep see response pattern. Near suddenly talk need wear sort back. Go behind follow believe reflect.","estimatedTime":"3 weeks","previewFileId":"4cc71d44-09d1-4c61-98be-76bc1706fccd","createdByUserId":"ef737f32-3b58-42fa-ba02-f4025942af84"}'

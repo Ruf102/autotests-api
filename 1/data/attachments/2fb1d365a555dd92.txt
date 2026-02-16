@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTE2VDA3OjEwOjA1LjE0NjU2NCIsInVzZXJfaWQiOiI1N2FlNzYyZC03ODYwLTQ4NmMtYTNjOS02YmFjN2RlY2YxZDgifQ.mgBII99m7_CEti4SFOdn_dRKFYRKHwzBnxHLoYDPev8' \
+  -H 'content-length: 336' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sound late newspaper think bank away her yeah.","maxScore":53,"minScore":2,"description":"After goal impact. Continue onto article these call water. Nearly remain experience late ground.","estimatedTime":"6 weeks","previewFileId":"34c22e3f-5469-4f47-81f7-d974f4c84010","createdByUserId":"57ae762d-7860-486c-a3c9-6bac7decf1d8"}'

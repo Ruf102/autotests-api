@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     COURSE_ASSERTIONS:course.py:106 Check create course response
+INFO     BASE_ASSERTIONS:base.py:36 Check that title equals to Ahead first book southern.
+INFO     BASE_ASSERTIONS:base.py:36 Check that max_score equals to 97
+INFO     BASE_ASSERTIONS:base.py:36 Check that min_score equals to 21
+INFO     BASE_ASSERTIONS:base.py:36 Check that description equals to Late from place stock him red popular. For focus product west final trial.
+Too near support her. Media other sort husband reflect heavy. Center city job western.
+INFO     BASE_ASSERTIONS:base.py:36 Check that estimated_time equals to 8 weeks
+INFO     BASE_ASSERTIONS:base.py:36 Check that preview_file_id equals to 6a2a59ce-7619-4694-8c4b-afbd8b625df0
+INFO     BASE_ASSERTIONS:base.py:36 Check that created_by_user_id equals to 61d9637b-0a62-473d-aa1d-b1ac0618b353
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

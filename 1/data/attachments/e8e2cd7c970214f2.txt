@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTE2VDA3OjEwOjA5LjAyNzI1NCIsInVzZXJfaWQiOiIyYWVjMzUzYi0wNzZkLTQ0ZTItYjkzMi1lNDRlNzA4NDYyN2YifQ.aaoxIkoLLMCc0OmVzasCRXUdUBJctGowxX98LzHVmA0' \
+  -H 'content-length: 372' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Heavy animal science break TV term close.","maxScore":56,"minScore":4,"description":"Phone choose difference allow. Protect moment own yeah.\nPartner run guy despite parent. Spend reflect politics feeling machine thousand.","estimatedTime":"2 weeks","previewFileId":"a9d8c938-4bc6-4688-b10c-2293dbc7d99a","createdByUserId":"2aec353b-076d-44e2-b932-e44e7084627f"}'

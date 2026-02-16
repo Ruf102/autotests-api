@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTE2VDA3OjEwOjA2LjU2MDg5NiIsInVzZXJfaWQiOiI2MWQ5NjM3Yi0wYTYyLTQ3M2QtYWExZC1iMWFjMDYxOGIzNTMifQ.nm0hO8x9neR6IcbcywDHAXL-B7_dJUOedP_-iosKyDQ' \
+  -H 'content-length: 383' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ahead first book southern.","maxScore":97,"minScore":21,"description":"Late from place stock him red popular. For focus product west final trial.\nToo near support her. Media other sort husband reflect heavy. Center city job western.","estimatedTime":"8 weeks","previewFileId":"6a2a59ce-7619-4694-8c4b-afbd8b625df0","createdByUserId":"61d9637b-0a62-473d-aa1d-b1ac0618b353"}'

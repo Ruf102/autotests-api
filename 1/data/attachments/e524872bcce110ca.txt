@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTE2VDA3OjEwOjA5LjAyNzI1NCIsInVzZXJfaWQiOiIyYWVjMzUzYi0wNzZkLTQ0ZTItYjkzMi1lNDRlNzA4NDYyN2YifQ.aaoxIkoLLMCc0OmVzasCRXUdUBJctGowxX98LzHVmA0' \
+  -H 'content-length: 358' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ok girl myself drop responsibility five teacher.","courseId":"933b6b8a-9b6c-4cea-a203-c197db4ee78f","maxScore":59,"minScore":10,"orderIndex":9,"description":"Case another travel scene skin book alone degree. Sister together hotel police many week some.\nMiddle recent picture type these happen gun. Nature item recently.","estimatedTime":"1 weeks"}'
