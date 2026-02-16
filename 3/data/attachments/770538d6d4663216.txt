@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTE2VDA3OjM0OjM5Ljg4MDIwNiIsInVzZXJfaWQiOiIzMDgyZjRiNS0wNTg4LTQwZmUtOGIwMC00MmYzMTkxN2E1ZGEifQ.pTBRlfTfgSW18KM21axogTQsm-R2fJ0ADpCVDnuXGAk' \
+  -H 'content-length: 419' \
+  -H 'content-type: application/json' \
+  -d '{"title":"President company stage major institution maintain free enter.","maxScore":50,"minScore":7,"description":"Force point own film.\nRate study same fast wonder win walk. Hard out south paper reality magazine institution store. Fish image seat consider analysis wall wrong.","estimatedTime":"3 weeks","previewFileId":"c5162669-d3ee-4f9b-9bc5-94e5e63db7fc","createdByUserId":"3082f4b5-0588-40fe-8b00-42f31917a5da"}'

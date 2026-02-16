@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/ea7bfb77-7863-4056-bbb1-b11ec074a410' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTE2VDA3OjM0OjM4LjY0MDA4OCIsInVzZXJfaWQiOiI0YjA3ZDJhYy0xMTg2LTRmYzctODlkZi1mYmFiNjliOTI1YWYifQ.Achqp3ZhOxjsLVAhxGxz02i2ActTrM6_A0yjY3-rQvo' \
+  -H 'content-length: 292' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Player interest up trip modern serve.","maxScore":55,"minScore":13,"description":"Defense value member successful front player. Store worry chance include station meet choose. Trip rate room account water. Season shoulder policy suffer ability executive.","estimatedTime":"5 weeks"}'

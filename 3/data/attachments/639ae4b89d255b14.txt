@@ -1,0 +1,24 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:28 Make GET request to http://localhost:8000/api/v1/exercises/6e6673c8-3311-4681-97df-c713c18a3d88
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises/6e6673c8-3311-4681-97df-c713c18a3d88
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:64 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:22 Check exercise
+INFO     BASE_ASSERTIONS:base.py:36 Check that id equals to 6e6673c8-3311-4681-97df-c713c18a3d88
+INFO     BASE_ASSERTIONS:base.py:36 Check that title equals to Public general three middle economic.
+INFO     BASE_ASSERTIONS:base.py:36 Check that course_id equals to ea58a4dd-32a6-4215-baa9-e78075a4305c
+INFO     BASE_ASSERTIONS:base.py:36 Check that max_score equals to 77
+INFO     BASE_ASSERTIONS:base.py:36 Check that min_score equals to 9
+INFO     BASE_ASSERTIONS:base.py:36 Check that order_index equals to 50
+INFO     BASE_ASSERTIONS:base.py:36 Check that description equals to Shoulder ever the employee treat sit thought. Medical policy our land. Discover teacher three keep.
+INFO     BASE_ASSERTIONS:base.py:36 Check that estimated_time equals to 4 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTE2VDA3OjM0OjQxLjA4MDI5MCIsInVzZXJfaWQiOiJiYTRiNjAzZi1mMzU4LTRmZTAtODcwZS1lYjUzN2QxM2I0NTkifQ.T9hLuUQALOyC8kuXo7rdE9_Ym0-1wEZ9gBqda4SOT0o' \
+  -H 'content-length: 284' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Public general three middle economic.","courseId":"ea58a4dd-32a6-4215-baa9-e78075a4305c","maxScore":77,"minScore":9,"orderIndex":50,"description":"Shoulder ever the employee treat sit thought. Medical policy our land. Discover teacher three keep.","estimatedTime":"4 weeks"}'
