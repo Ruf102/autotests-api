@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTE2VDA3OjM0OjE4LjYwMDUxOCIsInVzZXJfaWQiOiJjZjY4ZTcxMi1iZmI4LTRmNGMtOGUxZi1lZDU1MDY5MzA5ZGUifQ.xBuEvutIqIGniYIVR4PyFReJVHLT4J6aM6vFctaTezE' \
+  -H 'content-length: 369' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Food standard project leader.","maxScore":61,"minScore":29,"description":"Less either like eight begin either. Contain behind you fast part her. Side work during.\nFeeling method build only. Wear property health serve.","estimatedTime":"10 weeks","previewFileId":"0ef1f1c0-8c43-44d0-8633-1c7a0709c3b6","createdByUserId":"cf68e712-bfb8-4f4c-8e1f-ed55069309de"}'

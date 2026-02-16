@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTE2VDA3OjM0OjIzLjMyNDQwNiIsInVzZXJfaWQiOiJlYmYxNmYxZi1hNzJhLTQzYTYtYmRiOC1jMTVlN2Q4MjBiYTYifQ.pnOiCVZivO4k6OjWAF8fLe_DeXh4jXdVzmlhVH_zO9s' \
+  -H 'content-length: 428' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Argue hotel protect eat read worry thing.","maxScore":96,"minScore":22,"description":"New draw Republican himself student course.\nMillion government throw join floor. Front doctor personal do become.\nToday clearly movie happy them. Physical during for my discuss well prevent.","estimatedTime":"1 weeks","previewFileId":"8d7fcaf2-91b8-474b-bb92-864349cfdfbb","createdByUserId":"ebf16f1f-a72a-43a6-bdb8-c15e7d820ba6"}'
