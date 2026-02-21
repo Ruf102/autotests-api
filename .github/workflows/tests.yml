@@ -46,6 +46,24 @@ jobs:
         run: |
           pytest -m regression --alluredir=allure-results --numprocesses 2
 
+      - name: Save artefact allure-results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: allure-results
+          path: allure-results
+
+  publish-report:
+    needs: run-tests
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Download allure-results
+        uses: actions/download-artifact@v5
+        with:
+          name: allure-results
+          path: allure-results
+
       - name: Get Allure history
         uses: actions/checkout@v6
         if: always()
@@ -60,24 +78,6 @@ jobs:
         with:
           allure_results: allure-results  # Указываем каталог с результатами тестов
           allure_history: allure-history  # Указываем каталог для истории отчётов Allure
-
-      - name: Save artefact allure-results
-        uses: actions/upload-artifact@v4
-        with:
-          name: allure-results
-          path: allure-results
-
-
-
-  publish-report:
-    needs: run-tests
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Download result for job 2
-        uses: actions/download-artifact@v5
-        with:
-          name: allure-results
 
       - name: Deploy report to Github Pages
         if: always()  # Выполняется всегда, независимо от успеха других шагов
