@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTIxVDA5OjQ0OjI2LjU5NTY0NSIsInVzZXJfaWQiOiJjNDc0YTk1NS1jMzkwLTQ4YjItYTJkZi0yNTYyNWY5YjBlMjgifQ.P1JC1zpta9jzUt5SFcBW26XrQobl--dMXBcXnZ-Zcbs' \
+  -H 'content-length: 324' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Plan under cause stage.","maxScore":92,"minScore":5,"description":"Large source run happy.\nRoad final couple his heavy. Police person letter east. Former sure theory others.","estimatedTime":"5 weeks","previewFileId":"8b0cb6b5-f219-45fd-9540-c714442a1dc5","createdByUserId":"c474a955-c390-48b2-a2df-25625f9b0e28"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTIxVDA5OjQ0OjI2LjMyMjgzNyIsInVzZXJfaWQiOiI0ZGEwZmE2Yi03MjY5LTRjNDYtOWFiMS1kMDQ3N2Q3Y2E0OWMifQ.OWsPX3rPilsMHu5ws22pqr_PTbjuDi85bUxKU_ahVeQ' \
+  -H 'content-length: 270' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Control money entire their.","maxScore":97,"minScore":22,"description":"Administration fast per foreign notice position.","estimatedTime":"9 weeks","previewFileId":"0277f1ff-2077-4c98-a4a1-789e593ddc71","createdByUserId":"4da0fa6b-7269-4c46-9ab1-d0477d7ca49c"}'

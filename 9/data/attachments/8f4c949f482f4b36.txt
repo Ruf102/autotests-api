@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTIxVDA5OjQ0OjI0LjIwMTczMCIsInVzZXJfaWQiOiI1YjJmM2U0Ny0xY2FjLTQwNzMtYWFhNi1mMWM2MzM3NDYxYzgifQ.Y7rlLDnkwzH_uFRh2kCiXvx-Apfltim5utj5prdXBCY' \
+  -H 'content-length: 380' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Go and leave wall suddenly.","maxScore":74,"minScore":15,"description":"Tree yet camera radio. Certainly dog very heavy skill near.\nFloor culture half laugh model their. Full bar civil coach discussion necessary statement policy.","estimatedTime":"4 weeks","previewFileId":"04fce111-d587-4d8c-924c-e1d0f7fb29a3","createdByUserId":"5b2f3e47-1cac-4073-aaa6-f1c6337461c8"}'

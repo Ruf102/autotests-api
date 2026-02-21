@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     COURSE_ASSERTIONS:course.py:106 Check create course response
+INFO     BASE_ASSERTIONS:base.py:36 Check that title equals to Go and leave wall suddenly.
+INFO     BASE_ASSERTIONS:base.py:36 Check that max_score equals to 74
+INFO     BASE_ASSERTIONS:base.py:36 Check that min_score equals to 15
+INFO     BASE_ASSERTIONS:base.py:36 Check that description equals to Tree yet camera radio. Certainly dog very heavy skill near.
+Floor culture half laugh model their. Full bar civil coach discussion necessary statement policy.
+INFO     BASE_ASSERTIONS:base.py:36 Check that estimated_time equals to 4 weeks
+INFO     BASE_ASSERTIONS:base.py:36 Check that preview_file_id equals to 04fce111-d587-4d8c-924c-e1d0f7fb29a3
+INFO     BASE_ASSERTIONS:base.py:36 Check that created_by_user_id equals to 5b2f3e47-1cac-4073-aaa6-f1c6337461c8
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

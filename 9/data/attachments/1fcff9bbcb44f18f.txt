@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTIxVDA5OjQ0OjI3LjUxMTM4MCIsInVzZXJfaWQiOiIxMDk2ZGM1NC0xZjc2LTQ4ODgtYTU2YS0xZTM5N2VlY2Q1YWYifQ.uxsxdWTWlkivfMkVkpmHHWgaEHVtKYJLnAbhzK1eswM' \
+  -H 'content-length: 336' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Least development herself spring.","maxScore":56,"minScore":3,"description":"His process show reduce everything society. Community bill bad. Media general future wife world medical baby.","estimatedTime":"6 weeks","previewFileId":"012dc588-cd95-4147-a852-46336d77353f","createdByUserId":"1096dc54-1f76-4888-a56a-1e397eecd5af"}'
