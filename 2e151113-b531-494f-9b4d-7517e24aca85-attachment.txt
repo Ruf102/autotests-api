@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTIxVDA5OjMwOjUxLjUzNzA0OCIsInVzZXJfaWQiOiI4MjVjMzFiZS00NzI2LTQzNmEtYWM2NS03ZjYzODhhODgwMDkifQ.a-osAa2zBAjIZ4Htc2BRqxGAJVRy0qyM7rkK_eg78R0' \
+  -H 'content-length: 378' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Morning pattern available stuff.","maxScore":94,"minScore":6,"description":"Cultural have increase market police admit. View cause physical friend want without various. Different service energy standard successful remain window.","estimatedTime":"1 weeks","previewFileId":"0b29efbf-c79d-4e73-a4a7-a7374fe095af","createdByUserId":"825c31be-4726-436a-ac65-7f6388a88009"}'

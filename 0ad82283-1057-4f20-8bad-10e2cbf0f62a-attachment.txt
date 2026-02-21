@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTIxVDA5OjMwOjUxLjI2MzE0MSIsInVzZXJfaWQiOiJlYjNlOTgxMC0yZDU0LTQ4ZGItYTUyMS1kNDI0NzhkZTVlYzUifQ.kxnvrwMDk3LqFrHx8VBxDHBgRlMRDlxY9kLeGt9FJ-g' \
+  -H 'content-length: 340' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Federal turn clear.","maxScore":71,"minScore":28,"description":"Fine so pressure positive maintain. Body wish financial impact into. News turn anyone resource. Policy themselves cover movie.","estimatedTime":"1 weeks","previewFileId":"bba80fd9-a52d-4b36-8182-3bdd502b1f43","createdByUserId":"eb3e9810-2d54-48db-a521-d42478de5ec5"}'

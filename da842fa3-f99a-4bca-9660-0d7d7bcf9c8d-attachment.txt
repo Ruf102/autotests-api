@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/d6013790-b36d-4675-a634-dae3144ca633' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTIxVDA5OjMwOjUxLjI2MzE0MSIsInVzZXJfaWQiOiJlYjNlOTgxMC0yZDU0LTQ4ZGItYTUyMS1kNDI0NzhkZTVlYzUifQ.kxnvrwMDk3LqFrHx8VBxDHBgRlMRDlxY9kLeGt9FJ-g' \
+  -H 'content-length: 234' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ground or away several pick meeting may.","maxScore":62,"minScore":27,"description":"Customer water picture rise with. Factor international people mean. Ready parent several push series treat per.","estimatedTime":"5 weeks"}'

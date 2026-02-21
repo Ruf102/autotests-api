@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTIxVDA5OjMwOjUzLjk3OTQ1MCIsInVzZXJfaWQiOiI4NWQ4NGQwNC1kYWIxLTQwYTYtOWYzNi04ZDQwNmZlNjMwNTQifQ.Go4kjOXJwzE8c050THZX0ikZ25cNVGQ-Yjfq5hV971w' \
+  -H 'content-length: 415' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Seem special fly before community drop culture though.","maxScore":74,"minScore":17,"description":"Clear trouble price song room with those. Miss music film personal suddenly discussion senior step. Movement night huge fight many attention likely. Put size company.","estimatedTime":"5 weeks","previewFileId":"f4ada76c-4cd5-4337-8278-66da32fe6b67","createdByUserId":"85d84d04-dab1-40a6-9f36-8d406fe63054"}'

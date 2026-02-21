@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTIxVDA5OjMwOjUyLjc5ODY3MyIsInVzZXJfaWQiOiI3MjJhMzNmMS0wNGQ0LTQ1YzMtOWQyYS0zNDIyMGQ2N2E5M2IifQ.J38M3qe5ByRFigvrs9KWTwDFZI3TtuBoQw_3nsvb4gk' \
+  -H 'content-length: 429' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Chance moment color anything build prevent.","maxScore":67,"minScore":12,"description":"Name meet price however research. Professor himself whom picture her.\nEach conference similar two. Agent white range board deal responsibility week.\nEdge consider health. North fill garden.","estimatedTime":"3 weeks","previewFileId":"2c2029bf-ee14-486a-9ad1-47939fbb8e72","createdByUserId":"722a33f1-04d4-45c3-9d2a-34220d67a93b"}'
