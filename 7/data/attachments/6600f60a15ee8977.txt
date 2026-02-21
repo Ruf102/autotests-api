@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTIxVDA5OjM0OjAwLjgwODk5MyIsInVzZXJfaWQiOiJmYTYyM2NlYi01ZWFiLTQ5NDYtYWQ0Yi1iNGQ4M2Y0NmE5M2YifQ.RYVctUmav54k_kId6rGagDXJTkXbSdfMjhBSz9IuncA' \
+  -H 'content-length: 426' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Picture whom card easy require eye never full.","maxScore":55,"minScore":21,"description":"Miss lawyer give he within. Board himself realize turn conference serious evidence.\nClearly color you parent expect. Even idea inside maybe find risk project. Fine relate yet you none.","estimatedTime":"2 weeks","previewFileId":"d1cfaa1f-9e1a-4f30-9ec3-c10bb9ff84d1","createdByUserId":"fa623ceb-5eab-4946-ad4b-b4d83f46a93f"}'

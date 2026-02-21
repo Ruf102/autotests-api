@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTIxVDA5OjM0OjAwLjUzNjg2NCIsInVzZXJfaWQiOiJiNGUxOTRmNS03NzU5LTQxNDgtOGVhMC1mYmQxMzMwYjVkYmQifQ.edMZc2ESk6uN1lsnH2DtinqmRnrR8ve-b8GgxvDz2I4' \
+  -H 'content-length: 386' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Catch entire cup system sense herself catch.","courseId":"4e6bd82b-c362-425c-83a8-3dc91aca9eee","maxScore":62,"minScore":23,"orderIndex":1,"description":"Age guy after probably kind security. Each prove have yard peace. Bill tough smile since budget.\nOne south interest husband improve system. Town situation expert fish cause million really from.","estimatedTime":"1 weeks"}'

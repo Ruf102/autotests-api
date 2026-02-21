@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTIxVDA5OjMzOjU5LjYxNDA4NCIsInVzZXJfaWQiOiJjZWU1MjlmNS01NjE1LTQ3YjAtOWI0YS1mM2IyNWMzNGFlZGEifQ.9ex6WCDTYdTfWnCtZYg8hxKUH66AbHCkIMLOqdMXBek' \
+  -H 'content-length: 401' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Environmental service friend.","maxScore":62,"minScore":26,"description":"Morning leader play where international study tough lot. Board audience fast. Song impact memory dinner.\nWhat particularly computer. Choose seem sense whatever animal movement.","estimatedTime":"3 weeks","previewFileId":"928b5c10-3c00-4900-9245-b91eed7e0e4d","createdByUserId":"cee529f5-5615-47b0-9b4a-f3b25c34aeda"}'

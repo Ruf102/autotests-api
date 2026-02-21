@@ -1,0 +1,26 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:28 Make GET request to http://localhost:8000/api/v1/exercises?courseId=74544176-9485-4eed-9d1a-bdfa913b80ff
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises?courseId=74544176-9485-4eed-9d1a-bdfa913b80ff
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:120 Check get exercises response
+INFO     BASE_ASSERTIONS:base.py:72 Check that length of "exercise" equals to 1
+INFO     EXERCISES_ASSERTIONS:exercises.py:22 Check exercise
+INFO     BASE_ASSERTIONS:base.py:36 Check that id equals to 59784cbe-85cf-47ca-bfb3-d22840cc80af
+INFO     BASE_ASSERTIONS:base.py:36 Check that title equals to Prevent contain military why.
+INFO     BASE_ASSERTIONS:base.py:36 Check that course_id equals to 74544176-9485-4eed-9d1a-bdfa913b80ff
+INFO     BASE_ASSERTIONS:base.py:36 Check that max_score equals to 99
+INFO     BASE_ASSERTIONS:base.py:36 Check that min_score equals to 29
+INFO     BASE_ASSERTIONS:base.py:36 Check that order_index equals to 1
+INFO     BASE_ASSERTIONS:base.py:36 Check that description equals to List group test star pull day. Increase hotel position bed yard report.
+Dark off red guess on would. Model despite certain nor anything reveal little.
+INFO     BASE_ASSERTIONS:base.py:36 Check that estimated_time equals to 6 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema
