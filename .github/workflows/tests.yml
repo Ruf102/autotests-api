@@ -77,7 +77,7 @@ jobs:
           ref: gh-pages
           path: gh-pages
 
-      - name: Generates Allure Report
+      - name: Generates Allure  Report
         uses: simple-elf/allure-report-action@v1.13  # Используем готовое решение из GitHub Marketplace для генерации Allure отчёта
         if: always()  # Этот шаг тоже всегда выполняется
         with:
