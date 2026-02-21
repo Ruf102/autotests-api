@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTIxVDA5OjQ2OjMzLjM3NTcyMiIsInVzZXJfaWQiOiJkMGRmNDBjNi1lMDVjLTRkNmUtYmI0ZS1lYTJhNzc3M2Q2ZDMifQ.8PxBXqmh74LP2EGApwkdC2dahBxgLUiJwPebH71Sjsc' \
+  -H 'content-length: 406' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Amount now week fund for voice its.","maxScore":56,"minScore":6,"description":"Street threat by east authority safe machine reach. Government production wrong. Some ahead power lead.\nHuge boy rich partner. International real school stand happy lawyer key.","estimatedTime":"3 weeks","previewFileId":"b1b7c27a-de8e-4454-9916-dae3571f2cbb","createdByUserId":"d0df40c6-e05c-4d6e-bb4e-ea2a7773d6d3"}'

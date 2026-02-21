@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTIxVDA5OjQ2OjI5LjY4MjM1OCIsInVzZXJfaWQiOiI1MzczMzM5MS1hNTRmLTRkNmYtYmYzMS02ODQ2Zjc4NTE1YWQifQ.d4sOw_hTZ7qdTBnLd8xIGsSf_Xqsepcdh79r418dhI8' \
+  -H 'content-length: 400' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Rest final charge.","maxScore":89,"minScore":1,"description":"Reach movie send kitchen add owner. Mission foreign generation choice. Everyone husband although rise apply.\nBegin concern side himself artist number marriage. Fine her none now standard.","estimatedTime":"5 weeks","previewFileId":"fcab020f-a97b-435b-a039-439d06b3a3c7","createdByUserId":"53733391-a54f-4d6f-bf31-6846f78515ad"}'

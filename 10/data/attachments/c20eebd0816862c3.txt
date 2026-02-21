@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTIxVDA5OjQ2OjMxLjU2MDcxMCIsInVzZXJfaWQiOiI4MjgzZGMxYi04ZWM3LTQ5YTItOGVmYi1hOGNlNWI5YTU0MmQifQ.C7HnSkjgYlBMQ8USgYaYWp2rx8XXMCjB4MNtBom4Mlg' \
+  -H 'content-length: 418' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Training prove environment administration industry.","maxScore":51,"minScore":1,"description":"Prevent exactly quite good effort along. Head change anything federal experience simple send.\nWho any trouble story. Present approach drug day responsibility campaign find.","estimatedTime":"2 weeks","previewFileId":"aaeda1f1-c555-4d3e-9926-234f391e2bf1","createdByUserId":"8283dc1b-8ec7-49a2-8efb-a8ce5b9a542d"}'

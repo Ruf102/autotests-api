@@ -1,0 +1,41 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:28 Make PATCH request to http://localhost:8000/api/v1/courses/21ddd8b1-b90d-46cb-b6ca-f96f1cc5c904
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses/21ddd8b1-b90d-46cb-b6ca-f96f1cc5c904
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     COURSE_ASSERTIONS:course.py:44 Check update course response
+INFO     BASE_ASSERTIONS:base.py:36 Check that title equals to Result hot collection direction decade today receive.
+INFO     BASE_ASSERTIONS:base.py:36 Check that max_score equals to 74
+INFO     BASE_ASSERTIONS:base.py:36 Check that min_score equals to 13
+INFO     BASE_ASSERTIONS:base.py:36 Check that description equals to Language return campaign model. Top really direction rule. Across run according.
+Spring outside commercial. Quite leg administration back run character town. Above production design sing police per.
+INFO     BASE_ASSERTIONS:base.py:36 Check that estimated_time equals to 1 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema
+INFO     HTTP_CLIENT:event_hooks.py:28 Make GET request to http://localhost:8000/api/v1/courses/21ddd8b1-b90d-46cb-b6ca-f96f1cc5c904
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses/21ddd8b1-b90d-46cb-b6ca-f96f1cc5c904
+INFO     COURSE_ASSERTIONS:course.py:71 Check course path get match
+INFO     COURSE_ASSERTIONS:course.py:23 Check course
+INFO     BASE_ASSERTIONS:base.py:36 Check that id equals to 21ddd8b1-b90d-46cb-b6ca-f96f1cc5c904
+INFO     BASE_ASSERTIONS:base.py:36 Check that title equals to Result hot collection direction decade today receive.
+INFO     BASE_ASSERTIONS:base.py:36 Check that max_score equals to 74
+INFO     BASE_ASSERTIONS:base.py:36 Check that min_score equals to 13
+INFO     BASE_ASSERTIONS:base.py:36 Check that description equals to Language return campaign model. Top really direction rule. Across run according.
+Spring outside commercial. Quite leg administration back run character town. Above production design sing police per.
+INFO     BASE_ASSERTIONS:base.py:36 Check that estimated_time equals to 1 weeks
+INFO     FILES_ASSERTIONS:files.py:39 Check file
+INFO     BASE_ASSERTIONS:base.py:36 Check that id equals to 0255861d-8701-4712-b0b1-216671accf7a
+INFO     BASE_ASSERTIONS:base.py:36 Check that url equals to http://localhost:8000/static/tests/3619c438-76b3-4dbe-943f-8f00d9dbc453.png
+INFO     BASE_ASSERTIONS:base.py:36 Check that filename equals to 3619c438-76b3-4dbe-943f-8f00d9dbc453.png
+INFO     BASE_ASSERTIONS:base.py:36 Check that directory equals to tests
+INFO     USERS_ASSERTIONS:users.py:35 Check user
+INFO     BASE_ASSERTIONS:base.py:36 Check that id equals to 19b56cd8-679a-4ba2-81f2-a174977c9769
+INFO     BASE_ASSERTIONS:base.py:36 Check that email equals to johnsonveronica@example.com
+INFO     BASE_ASSERTIONS:base.py:36 Check that last_name equals to Newton
+INFO     BASE_ASSERTIONS:base.py:36 Check that first_name equals to Samantha
+INFO     BASE_ASSERTIONS:base.py:36 Check that middle_name equals to Joshua

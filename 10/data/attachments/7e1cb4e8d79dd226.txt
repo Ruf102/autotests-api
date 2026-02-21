@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTIxVDA5OjQ2OjMyLjczNTc4NiIsInVzZXJfaWQiOiIzZjg4MjQ4ZS0wNmMwLTRlYzUtOTRmYS1mYTBkMzgzMTI0MmQifQ.wuZqFRbLWZLXMcy_P8yoUADE0KcqxunYEZJ7GzFBikk' \
+  -H 'content-length: 395' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Small staff somebody fire.","maxScore":65,"minScore":18,"description":"Factor stuff lose north ball. Maintain without experience be.\nSummer deep direction support. Financial name window true strategy include institution. Listen into none heavy.","estimatedTime":"2 weeks","previewFileId":"87c3ff00-d06a-459d-8a42-322b35fd0dff","createdByUserId":"3f88248e-06c0-4ec5-94fa-fa0d3831242d"}'
