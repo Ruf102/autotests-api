@@ -56,8 +56,13 @@ jobs:
   publish-report:
     needs: run-tests
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+
       - name: Download allure-results
         uses: actions/download-artifact@v5
         with:
@@ -72,11 +77,11 @@ jobs:
           ref: gh-pages
           path: gh-pages
 
-      - name: Generates Allure Report with history
+      - name: Generates Allure Report
         uses: simple-elf/allure-report-action@v1.13  # Используем готовое решение из GitHub Marketplace для генерации Allure отчёта
         if: always()  # Этот шаг тоже всегда выполняется
         with:
-          allure_results:  allure-results  # Указываем каталог с результатами тестов
+          allure_results: allure-results  # Указываем каталог с результатами тестов
           allure_history: allure-history  # Указываем каталог для истории отчётов Allure
 
       - name: Deploy report to Github Pages
