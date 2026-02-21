@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTIxVDA5OjM2OjE3Ljk5MDkwMSIsInVzZXJfaWQiOiI5MDk0MTNkMC04MzkwLTRhY2ItOGU5ZS00OWFmYmE0YWYzZjQifQ.FltOHbZdvGKPtUt5s2KZ-AuzCfeZ1Mtq8elLQxxO5NU' \
+  -H 'content-length: 410' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Generation most memory task him choose manage.","maxScore":58,"minScore":21,"description":"Standard some employee short body feeling clear. Strategy fish deal nation question produce already.\nOccur part interesting trip. Quality team teacher deal until sport.","estimatedTime":"8 weeks","previewFileId":"1bfb2a8b-2911-48a3-84ea-ca13205ebc6a","createdByUserId":"909413d0-8390-4acb-8e9e-49afba4af3f4"}'

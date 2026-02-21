@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTIxVDA5OjM2OjE2Ljc4NjI4MSIsInVzZXJfaWQiOiI3NmEzNWRjOC0xYjRjLTQ0MjItOGViMS0wMTE4MzBiNTVkYmQifQ.oM7ZyCDWYlBcigvpgc-k81Pi16O1ouTBUQSqShhvsXg' \
+  -H 'content-length: 375' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Dog point moment receive bed staff box.","courseId":"61c8c997-500a-431e-939d-5c36d2956fea","maxScore":89,"minScore":8,"orderIndex":78,"description":"Enough everyone reach oil. Heart guess represent either western. Improve fast concern fill need left age.\nResponsibility care investment any many. Some president stock according me final.","estimatedTime":"6 weeks"}'
