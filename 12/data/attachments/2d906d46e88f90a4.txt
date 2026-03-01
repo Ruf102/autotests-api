@@ -1,0 +1,39 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:28 Make PATCH request to http://localhost:8000/api/v1/courses/659a19c1-64ee-4d6c-8932-d93f0547cbe7
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses/659a19c1-64ee-4d6c-8932-d93f0547cbe7
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     COURSE_ASSERTIONS:course.py:44 Check update course response
+INFO     BASE_ASSERTIONS:base.py:36 Check that title equals to Blue hit nature professor.
+INFO     BASE_ASSERTIONS:base.py:36 Check that max_score equals to 61
+INFO     BASE_ASSERTIONS:base.py:36 Check that min_score equals to 6
+INFO     BASE_ASSERTIONS:base.py:36 Check that description equals to Outside require least maintain member scene idea environmental. Green eye address town indicate. Wish person need challenge notice consider quality speech.
+INFO     BASE_ASSERTIONS:base.py:36 Check that estimated_time equals to 8 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema
+INFO     HTTP_CLIENT:event_hooks.py:28 Make GET request to http://localhost:8000/api/v1/courses/659a19c1-64ee-4d6c-8932-d93f0547cbe7
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses/659a19c1-64ee-4d6c-8932-d93f0547cbe7
+INFO     COURSE_ASSERTIONS:course.py:71 Check course path get match
+INFO     COURSE_ASSERTIONS:course.py:23 Check course
+INFO     BASE_ASSERTIONS:base.py:36 Check that id equals to 659a19c1-64ee-4d6c-8932-d93f0547cbe7
+INFO     BASE_ASSERTIONS:base.py:36 Check that title equals to Blue hit nature professor.
+INFO     BASE_ASSERTIONS:base.py:36 Check that max_score equals to 61
+INFO     BASE_ASSERTIONS:base.py:36 Check that min_score equals to 6
+INFO     BASE_ASSERTIONS:base.py:36 Check that description equals to Outside require least maintain member scene idea environmental. Green eye address town indicate. Wish person need challenge notice consider quality speech.
+INFO     BASE_ASSERTIONS:base.py:36 Check that estimated_time equals to 8 weeks
+INFO     FILES_ASSERTIONS:files.py:39 Check file
+INFO     BASE_ASSERTIONS:base.py:36 Check that id equals to 3c510a6a-098c-46ea-937a-5975f637e77d
+INFO     BASE_ASSERTIONS:base.py:36 Check that url equals to http://localhost:8000/static/tests/4f1d2fde-0208-4e83-bc68-4f5f324bc2de.png
+INFO     BASE_ASSERTIONS:base.py:36 Check that filename equals to 4f1d2fde-0208-4e83-bc68-4f5f324bc2de.png
+INFO     BASE_ASSERTIONS:base.py:36 Check that directory equals to tests
+INFO     USERS_ASSERTIONS:users.py:35 Check user
+INFO     BASE_ASSERTIONS:base.py:36 Check that id equals to fe8abf58-a109-4042-8429-20553a24976e
+INFO     BASE_ASSERTIONS:base.py:36 Check that email equals to amberparker@example.org
+INFO     BASE_ASSERTIONS:base.py:36 Check that last_name equals to Carson
+INFO     BASE_ASSERTIONS:base.py:36 Check that first_name equals to Matthew
+INFO     BASE_ASSERTIONS:base.py:36 Check that middle_name equals to Raymond

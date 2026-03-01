@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTAxVDEwOjM3OjUyLjYyODcwOCIsInVzZXJfaWQiOiJkMGNjNjJiOC1mM2EzLTQ2NWEtYjk3NC1kZTlhYTgxNWRmNGIifQ.YLl3gOIEWlT5T9BHotRCxojRN3VgDc6MLlP5wUCLHIE' \
+  -H 'content-length: 385' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Future call capital talk here poor share.","maxScore":86,"minScore":24,"description":"Forward decide card.\nAsk time mouth join company care need training. Inside community type or their. Address phone learn father worker drive become.","estimatedTime":"3 weeks","previewFileId":"d423d422-63be-44d6-ac87-25f0715c7500","createdByUserId":"d0cc62b8-f3a3-465a-b974-de9aa815df4b"}'

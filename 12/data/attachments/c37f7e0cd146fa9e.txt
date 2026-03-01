@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/659a19c1-64ee-4d6c-8932-d93f0547cbe7' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTAxVDEwOjM3OjUyLjM1NTQyMCIsInVzZXJfaWQiOiJmZThhYmY1OC1hMTA5LTQwNDItODQyOS0yMDU1M2EyNDk3NmUifQ.Z3Se6Cj_GBEu1wVN2S9YXzpON6nm8az88Reuv3BMpNk' \
+  -H 'content-length: 263' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Blue hit nature professor.","maxScore":61,"minScore":6,"description":"Outside require least maintain member scene idea environmental. Green eye address town indicate. Wish person need challenge notice consider quality speech.","estimatedTime":"8 weeks"}'

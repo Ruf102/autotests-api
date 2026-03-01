@@ -1,0 +1,25 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:28 Make GET request to http://localhost:8000/api/v1/exercises/f0f0f30e-b510-4473-bb1d-7fa7a45f3efb
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises/f0f0f30e-b510-4473-bb1d-7fa7a45f3efb
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:64 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:22 Check exercise
+INFO     BASE_ASSERTIONS:base.py:36 Check that id equals to f0f0f30e-b510-4473-bb1d-7fa7a45f3efb
+INFO     BASE_ASSERTIONS:base.py:36 Check that title equals to Face foreign relate deep foot tonight water.
+INFO     BASE_ASSERTIONS:base.py:36 Check that course_id equals to 53a4c772-a6b5-416b-92cc-8c17981c1d24
+INFO     BASE_ASSERTIONS:base.py:36 Check that max_score equals to 50
+INFO     BASE_ASSERTIONS:base.py:36 Check that min_score equals to 8
+INFO     BASE_ASSERTIONS:base.py:36 Check that order_index equals to 84
+INFO     BASE_ASSERTIONS:base.py:36 Check that description equals to Company discuss behavior air speech experience individual. Lot never late firm dinner price lead.
+Best order bank accept occur. Back civil moment fine situation consumer.
+INFO     BASE_ASSERTIONS:base.py:36 Check that estimated_time equals to 1 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

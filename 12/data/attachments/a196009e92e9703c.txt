@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTAxVDEwOjM3OjUxLjIwMTc5OSIsInVzZXJfaWQiOiJmMjJhODE2MC05YjBkLTQ4YTktYmU5OS01NDY2OWYzNWY5NTUifQ.5-DlQ6emogT-Zf0Mzl377OR-wS7eyfZFnQWBZ0iPo7Y' \
+  -H 'content-length: 436' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Very along various organization physical example town may.","maxScore":99,"minScore":25,"description":"Wear action safe chair. Focus condition political.\nSurface technology reality. Offer buy machine arm.\nTeach mission fact much deep. Home pick source skin listen body building where.","estimatedTime":"7 weeks","previewFileId":"65fcd3d4-83f4-4c5f-8f85-4441f27936db","createdByUserId":"f22a8160-9b0d-48a9-be99-54669f35f955"}'

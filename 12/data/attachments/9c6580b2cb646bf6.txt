@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTAxVDEwOjM3OjU2LjAwNzM5MCIsInVzZXJfaWQiOiJmNjU3N2FlMy0xMGZkLTQ0M2MtOGVkYS1mZTllNzhlMDUwZDEifQ.qnAzlNktfpMAKX4FhyAz98eCEbdF20DfBi-tV59wOq8' \
+  -H 'content-length: 351' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Model guess argue executive use wrong.","maxScore":74,"minScore":28,"description":"Moment current baby morning especially word. Position question sign claim individual suddenly administration hospital.","estimatedTime":"9 weeks","previewFileId":"33d81664-10b3-4acc-b67e-9b2fe9934488","createdByUserId":"f6577ae3-10fd-443c-8eda-fe9e78e050d1"}'
