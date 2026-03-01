@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTAxVDE5OjEzOjA3LjU5NTIyOSIsInVzZXJfaWQiOiI4ZjFlYjM3Zi03MWQzLTQ2NGQtYjI1NC1iNWFkODY0YzMwZDgifQ.HuZ70VkxH1bEISoFxJN4bz6IyPhCgzbN18ihGLm3K_8' \
+  -H 'content-length: 346' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Use popular great both.","courseId":"3e7ce53d-086f-40db-b84f-1039007c988f","maxScore":75,"minScore":6,"orderIndex":44,"description":"Customer center side good four movement hope start. Production whatever present understand evening office.\nIn tonight light crime difficult. Remember standard nature general.","estimatedTime":"5 weeks"}'

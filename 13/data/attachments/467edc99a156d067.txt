@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTAxVDE5OjEzOjA4LjQ3NTA2MyIsInVzZXJfaWQiOiJjY2Y4YWQzNy0wZWRjLTQ2ZTktYTFlYS1kOTcyMDRlNjBkZjYifQ.RgHPXL8zwOJH2Iy9KbPsnNv1j4SZzzPJtDL2BhsNKHU' \
+  -H 'content-length: 353' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Front chair here turn artist.","maxScore":53,"minScore":21,"description":"Different inside new down situation anything city. Loss behind away window. Assume make chair these close education spend future.","estimatedTime":"6 weeks","previewFileId":"8c3a573d-3c6f-43aa-aba9-7b3ab7a35db5","createdByUserId":"ccf8ad37-0edc-46e9-a1ea-d97204e60df6"}'

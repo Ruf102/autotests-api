@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/f7e80491-e86b-4318-b317-e67a41b33bc3' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTAxVDE5OjEzOjA0Ljk3MDI4MiIsInVzZXJfaWQiOiJiNjc4MDE5Ni1kZmU0LTQxNmEtYjUyZS1jM2QyYTE1YTU2NGYifQ.9KdRFpWtxTHtKsqGinrDYwSJFHaVKs0VMoaQN02dcOI' \
+  -H 'content-length: 289' \
+  -H 'content-type: application/json' \
+  -d '{"title":"College job news you newspaper purpose policy realize.","maxScore":99,"minScore":7,"description":"Sister knowledge region attention by everybody enjoy. Man price whole rate.\nColor beyond I market sense enjoy financial. Herself hour over force writer.","estimatedTime":"2 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTAxVDE5OjEzOjA1LjIyODk4MiIsInVzZXJfaWQiOiIyMzdkOTc3Zi1lZjAyLTQ4OWItYjdlOC03NDVjMzg3OGY1NDEifQ.HInLErRyXoTY_ED6WmOzrNLv256Ojv5tdCQuaJTzymI' \
+  -H 'content-length: 417' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Claim building hour production TV official million.","maxScore":73,"minScore":28,"description":"Get short still while answer. Boy where exist key. Work son movie particular serve father.\nSomeone road hand face. Because through hotel against. Relate boy cost partner.","estimatedTime":"7 weeks","previewFileId":"c4538907-d6d1-435e-adbc-36b1ee591c99","createdByUserId":"237d977f-ef02-489b-b7e8-745c3878f541"}'
