@@ -10,4 +10,7 @@ allure-results
 allure-report
 
 #swagger coverage
+coverage.html
 coverage-results
+coverage-history.json
+coverage-report.json
