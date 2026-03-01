@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTAxVDE5OjE4OjE4LjYzODA5MCIsInVzZXJfaWQiOiJlZDI0OGEyMy0wZDU2LTQ3NzMtYmM4NS1lYzkxOTAxM2U0OTUifQ.YckUx_Ld9IHGGL7fpB1pX00Y03l5gmlBTVekf47mz0E' \
+  -H 'content-length: 369' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Write administration would read happen together choice.","maxScore":75,"minScore":9,"description":"Behavior social since help dog understand fast. Happy must receive able knowledge answer blue. Real truth no few single.","estimatedTime":"4 weeks","previewFileId":"b6301dfb-a30f-4e6e-934e-505a71e78d3a","createdByUserId":"ed248a23-0d56-4773-bc85-ec919013e495"}'

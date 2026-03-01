@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTAxVDE5OjE4OjE5LjgyMTY0NiIsInVzZXJfaWQiOiIzMDE0ZjBjYi0yZTVjLTQ1N2UtODllYS1hMzk3ZjlmNjEzOGEifQ.ptaOqlJC1EaF7h9TbwUG6IXuGOCBzQGuJ9mjdMN0S4g' \
+  -H 'content-length: 396' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Air live summer look.","maxScore":93,"minScore":23,"description":"Nation cold officer. Drug several child very area.\nProduction candidate region light. Difficult call scene finally mother step step. Blue edge fill record summer wrong he century.","estimatedTime":"2 weeks","previewFileId":"4b9a29bf-8991-4079-aff5-c3695ed2e1d5","createdByUserId":"3014f0cb-2e5c-457e-89ea-a397f9f6138a"}'

@@ -1,0 +1,34 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     SWAGGER_COVERAGE_TRACKER_STORAGE:storage.py:34 Results directory does not exist, creating: /home/runner/work/autotests-api/autotests-api/coverage-results
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:28 Make GET request to http://localhost:8000/api/v1/courses?userId=701b33be-9a94-4bdf-90f2-a5f961153ae7
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses?userId=701b33be-9a94-4bdf-90f2-a5f961153ae7
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     COURSE_ASSERTIONS:course.py:87 Check get courses response
+INFO     BASE_ASSERTIONS:base.py:72 Check that length of "courses" equals to 1
+INFO     COURSE_ASSERTIONS:course.py:23 Check course
+INFO     BASE_ASSERTIONS:base.py:36 Check that id equals to a2e440ab-f9b3-46ea-9aff-d0e76fad19a1
+INFO     BASE_ASSERTIONS:base.py:36 Check that title equals to Face participant reality whom suggest part sister.
+INFO     BASE_ASSERTIONS:base.py:36 Check that max_score equals to 68
+INFO     BASE_ASSERTIONS:base.py:36 Check that min_score equals to 15
+INFO     BASE_ASSERTIONS:base.py:36 Check that description equals to Arrive simply ok phone seven rate whole. Tell view something everybody figure song.
+Eat apply continue buy degree even impact. Future walk behavior agent attention a sit. Tv quite agent true.
+INFO     BASE_ASSERTIONS:base.py:36 Check that estimated_time equals to 2 weeks
+INFO     FILES_ASSERTIONS:files.py:39 Check file
+INFO     BASE_ASSERTIONS:base.py:36 Check that id equals to 8554a040-32e5-4646-b97b-1d861a304fb5
+INFO     BASE_ASSERTIONS:base.py:36 Check that url equals to http://localhost:8000/static/tests/09520ba3-5a4e-46c4-849b-aa530e9751d1.png
+INFO     BASE_ASSERTIONS:base.py:36 Check that filename equals to 09520ba3-5a4e-46c4-849b-aa530e9751d1.png
+INFO     BASE_ASSERTIONS:base.py:36 Check that directory equals to tests
+INFO     USERS_ASSERTIONS:users.py:35 Check user
+INFO     BASE_ASSERTIONS:base.py:36 Check that id equals to 701b33be-9a94-4bdf-90f2-a5f961153ae7
+INFO     BASE_ASSERTIONS:base.py:36 Check that email equals to james45@example.org
+INFO     BASE_ASSERTIONS:base.py:36 Check that last_name equals to Burton
+INFO     BASE_ASSERTIONS:base.py:36 Check that first_name equals to Joanna
+INFO     BASE_ASSERTIONS:base.py:36 Check that middle_name equals to Kathryn
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

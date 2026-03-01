@@ -1,0 +1,18 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     COURSE_ASSERTIONS:course.py:106 Check create course response
+INFO     BASE_ASSERTIONS:base.py:36 Check that title equals to Career job range much traditional certainly present.
+INFO     BASE_ASSERTIONS:base.py:36 Check that max_score equals to 87
+INFO     BASE_ASSERTIONS:base.py:36 Check that min_score equals to 2
+INFO     BASE_ASSERTIONS:base.py:36 Check that description equals to Describe present agent accept drop big better option. Adult city enjoy concern shoulder would usually. Public issue fight study kitchen into.
+INFO     BASE_ASSERTIONS:base.py:36 Check that estimated_time equals to 5 weeks
+INFO     BASE_ASSERTIONS:base.py:36 Check that preview_file_id equals to c262e69c-0e11-4d23-af6f-a9a2e58fe811
+INFO     BASE_ASSERTIONS:base.py:36 Check that created_by_user_id equals to fa8f7766-2dc0-4aa3-8dbc-f8352b42c4ac
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

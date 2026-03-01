@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/750d7c47-5c0e-452b-88cf-34939eeb6c13' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTAxVDE5OjE4OjE4LjYzODA5MCIsInVzZXJfaWQiOiJlZDI0OGEyMy0wZDU2LTQ3NzMtYmM4NS1lYzkxOTAxM2U0OTUifQ.YckUx_Ld9IHGGL7fpB1pX00Y03l5gmlBTVekf47mz0E' \
+  -H 'content-length: 217' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Now this popular.","maxScore":56,"minScore":29,"orderIndex":73,"description":"Indicate door especially kitchen wind southern. Baby few positive high.\nActually room sing short me.","estimatedTime":"7 weeks"}'
