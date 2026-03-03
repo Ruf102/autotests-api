@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTAzVDE3OjEwOjE0LjU2MTY5MSIsInVzZXJfaWQiOiIwNjdkMDk3Ni00MmZhLTRiNzQtOGI5My01ZTE1YTM2NDRlZjkifQ.wyafZj3DpVGZmlSrJJacZyNtPmrQpXLxd1fpwBJFCe8' \
+  -H 'content-length: 304' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Per most total note top ready tough.","maxScore":53,"minScore":7,"description":"Energy method above walk culture interest social. Above perhaps fill dark.","estimatedTime":"5 weeks","previewFileId":"6060cf87-3eaf-46b0-9420-bc23f3438574","createdByUserId":"067d0976-42fa-4b74-8b93-5e15a3644ef9"}'

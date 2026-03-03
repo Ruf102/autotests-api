@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTAzVDE3OjEwOjEzLjA5MTgxOCIsInVzZXJfaWQiOiJhNmI1NDhkMy00MTYyLTRjNTctOTM2OC02ODIzMTU1NzBiZjEifQ.DEgh-iiFuYN2qV4CWiBdJS5efuph877jxm6h6xamYp8' \
+  -H 'content-length: 371' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Green address two care at deep.","maxScore":78,"minScore":1,"description":"Sure score rate federal month whole human human. Vote girl appear perform attorney its soldier. Democratic represent report evening her stage oil.","estimatedTime":"4 weeks","previewFileId":"cf86045e-3be8-4f09-a16c-c2884e1402be","createdByUserId":"a6b548d3-4162-4c57-9368-682315570bf1"}'

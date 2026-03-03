@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTAzVDE3OjEwOjEzLjM2MTMzNiIsInVzZXJfaWQiOiIzMjU2NjQxMC1mMmViLTRiY2YtYjMxNy0zYzdiZDk2OTVjZjAifQ.GZ2rKRzR4JAvkf1BCNypeAxOtAWTd2Q05J-pf5DLfsE' \
+  -H 'content-length: 342' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Activity population never baby make.","courseId":"d4880d0e-8d4e-4442-ac11-e41525fad1ee","maxScore":74,"minScore":19,"orderIndex":70,"description":"Amount administration husband anything win. Magazine actually particularly feel field.\nPerhaps I treatment right fly. Always nearly line can reality decide.","estimatedTime":"4 weeks"}'

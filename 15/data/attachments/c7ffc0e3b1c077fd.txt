@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTAzVDE3OjEwOjE0LjI4NjQ4NCIsInVzZXJfaWQiOiJkYjY3NDZiNy1mNWY2LTRmNjAtOTY1Yi1kZTFlNmQ2ODI2MmYifQ.1-s2eeXfu7wl7uSsMDqzXA5JZXrxe2v04kFpt4oNnnc' \
+  -H 'content-length: 393' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Baby foot condition specific resource morning car.","maxScore":91,"minScore":27,"description":"Second want perform away. Expert nation born sport growth decision north.\nLike player deal air happen much. Section cup family often music produce.","estimatedTime":"1 weeks","previewFileId":"ad0ced31-0c28-4167-bd8a-1ec391300189","createdByUserId":"db6746b7-f5f6-4f60-965b-de1e6d68262f"}'
