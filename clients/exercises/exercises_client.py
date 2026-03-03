@@ -6,13 +6,14 @@ from clients.exercises.exercises_schema import GetExercisesRequestSchema, Create
     UpdateExerciseResponseSchema
 from clients.private_http_builder import AuthenticationUserSchema, get_private_http_client
 from tools.routes import APIRoutes
+from clients.api_coverage import tracker
 
 
 class ExercisesClient(APIClient):
     """
     Клиент для работы с /api/v1/exercises.
     """
-
+    @tracker.track_coverage_httpx(f"{APIRoutes.EXERCISES}")
     @allure.step("Get exercises")
     def get_exercises_api(self, query: GetExercisesRequestSchema) -> Response:
         """
@@ -23,6 +24,7 @@ class ExercisesClient(APIClient):
         """
         return self.get(APIRoutes.EXERCISES, params=query.model_dump(by_alias=True))
 
+    @tracker.track_coverage_httpx(f"{APIRoutes.EXERCISES}")
     @allure.step("Create exercises")
     def create_exercise_api(self, request: CreateExercisesRequestSchema) -> Response:
         """
@@ -33,6 +35,7 @@ class ExercisesClient(APIClient):
         """
         return self.post(APIRoutes.EXERCISES, json=request.model_dump(by_alias=True))
 
+    @tracker.track_coverage_httpx(f"{APIRoutes.EXERCISES}/{{exercise_id}}")
     @allure.step("Get exercises by id {exercise_id}")
     def get_exercise_api(self, exercise_id: str) -> Response:
         """
@@ -43,6 +46,7 @@ class ExercisesClient(APIClient):
         """
         return self.get(f"{APIRoutes.EXERCISES}/{exercise_id}")
 
+    @tracker.track_coverage_httpx(f"{APIRoutes.EXERCISES}/{{exercise_id}}")
     @allure.step("Update exercises by id {exercise_id}")
     def update_exercise_api(self, exercise_id: str, request: UpdateExerciseRequestSchema) -> Response:
         """
@@ -54,6 +58,7 @@ class ExercisesClient(APIClient):
         """
         return self.patch(f"{APIRoutes.EXERCISES}/{exercise_id}", json=request.model_dump(by_alias=True))
 
+    @tracker.track_coverage_httpx(f"{APIRoutes.EXERCISES}/{{exercise_id}}")
     @allure.step("Delete exercises by id {exercise_id}")
     def delete_exercise_api(self, exercise_id: str) -> Response:
         """
