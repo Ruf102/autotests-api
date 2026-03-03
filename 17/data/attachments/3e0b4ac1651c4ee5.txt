@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTAzVDE3OjM4OjAxLjg5ODc3NCIsInVzZXJfaWQiOiI5OGU5ZjcxZC04NmU1LTQ0M2MtYjAwYy03YTFjYTM4ZjE4NTkifQ.83shfnnXOFINZJp1SaS9MopucNY3Y1KK0hQoSrg7Fsw' \
+  -H 'content-length: 362' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Glass exactly service.","maxScore":74,"minScore":11,"description":"Trial free continue under. Sing picture meet. Star say media wide she audience.\nThose budget model vote watch third. Admit floor five style off.","estimatedTime":"8 weeks","previewFileId":"bbb0d70a-6be7-4706-bfa8-51528d798f5d","createdByUserId":"98e9f71d-86e5-443c-b00c-7a1ca38f1859"}'

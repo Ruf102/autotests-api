@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTAzVDE3OjM4OjAzLjM0ODQ1NyIsInVzZXJfaWQiOiJkOTc1MjM2OC1iNzcxLTRhMTAtYmRjYi0zNDdlOGJiZGQ5YmYifQ.QGBG3Ip_0xjjvcVAUmykRCtrSujPgT4nlzqkMysKPGA' \
+  -H 'content-length: 324' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Father decade whole why quite save six heavy.","courseId":"54568115-1d8d-4a30-9e9d-461ea349e776","maxScore":70,"minScore":22,"orderIndex":83,"description":"Thousand off last live easy. Throw war agency imagine similar.\nAll activity finish pull store may ground. Describe job scientist.","estimatedTime":"4 weeks"}'

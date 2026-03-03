@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTAzVDE3OjM4OjAzLjk0ODI2MiIsInVzZXJfaWQiOiI3OTE4NjZhMi04YTE2LTQ3YWMtOTAzNy1iZWJlZWYxZDEyNDgifQ.I3py9nNoUhWz46poLQ1mU1LzdbsUxp9Dx6OGKoHj180' \
+  -H 'content-length: 438' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Myself director follow issue use protect relationship.","maxScore":55,"minScore":8,"description":"Have knowledge stand door program forget by. Note worker information participant determine fact.\nIssue indeed grow avoid age single smile. Sort travel ok commercial. Might response process.","estimatedTime":"6 weeks","previewFileId":"cb07dac0-86c7-4601-a9d0-a006c65942e9","createdByUserId":"791866a2-8a16-47ac-9037-bebeef1d1248"}'

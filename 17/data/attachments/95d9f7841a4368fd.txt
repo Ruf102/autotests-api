@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTAzVDE3OjM4OjAyLjc4ODc2MCIsInVzZXJfaWQiOiI1YzFkNTE1Mi1kZGZiLTRlMzQtYmFmMS1lMzdlZWI3MGYyYmIifQ.dRrb5keZB6srl7DMRJMO3VucOkLNqiRkBi6_bEp9JW0' \
+  -H 'content-length: 317' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Book evidence power at reduce.","courseId":"609c1f76-da22-45d7-a312-ef7c9be5559c","maxScore":77,"minScore":22,"orderIndex":94,"description":"Unit government help likely stuff thus wish me. Close through happy surface election bring site benefit. Toward forget up some discussion.","estimatedTime":"2 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTAzVDE3OjM4OjAwLjk3NjIxNCIsInVzZXJfaWQiOiI5MmJkNWU1My01NWRkLTQxMWUtOWZiYy1jMjIwZmExMTRiNmUifQ.GoxM0Xxd_s2dJ9QkGl8FOYxY21J-JaGl_IVkaoIUBrE' \
+  -H 'content-length: 353' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Industry which try across quite series car.","maxScore":74,"minScore":20,"description":"Team sport how experience career. Expect painting red four travel apply contain. Film candidate development PM end.","estimatedTime":"9 weeks","previewFileId":"e02edfbc-4877-4940-993b-623fc50086e2","createdByUserId":"92bd5e53-55dd-411e-9fbc-c220fa114b6e"}'

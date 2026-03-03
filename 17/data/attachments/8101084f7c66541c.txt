@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTAzVDE3OjM4OjAyLjE1ODYxNSIsInVzZXJfaWQiOiIzYzJmMWNhMS0xYjg1LTQzYTAtOWViZC03MWEzMTMzYjM4NWQifQ.uYg58acugVKFaByAThUkZVrJQe6Rp8FqXkhAMkG62HI' \
+  -H 'content-length: 346' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Room recently this feeling hot open quality.","maxScore":84,"minScore":27,"description":"Sell put thus why. Reflect service Democrat yourself environment find. Represent east along top image away.","estimatedTime":"3 weeks","previewFileId":"4c7aecd9-5348-48de-921d-7c3871007477","createdByUserId":"3c2f1ca1-1b85-43a0-9ebd-71a3133b385d"}'
