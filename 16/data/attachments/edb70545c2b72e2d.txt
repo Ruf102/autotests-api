@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTAzVDE3OjEyOjQ1LjY0MTE5MyIsInVzZXJfaWQiOiIyYjAyZTNjNy05MjJjLTRlN2QtOTQ2Ni01MTZlZDYyMjkzNDgifQ.6fXO0a6J1gCY2gHWajIwdwLXSzevC_FEQ9e-aVO_qjA' \
+  -H 'content-length: 400' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Almost fill step report husband condition candidate financial.","courseId":"dac84a4d-c1f1-4719-bcf5-a35bea77cee0","maxScore":98,"minScore":2,"orderIndex":90,"description":"Size into figure. Himself card draw including. Author less several put. Director low artist customer school join.\nRemain administration save class. Evening election price child black voice.","estimatedTime":"3 weeks"}'

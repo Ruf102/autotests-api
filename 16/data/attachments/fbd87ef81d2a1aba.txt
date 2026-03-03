@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTAzVDE3OjEyOjQ0LjQwODAzNCIsInVzZXJfaWQiOiJiNjRhOTcxZS1jMmQzLTRiNjEtYjBjNC0wZWM0NTdkYTUzYmYifQ.rwx9HmJYMuZkGRThMP63xp1t9xvlZ1P2mkG256uQtlc' \
+  -H 'content-length: 442' \
+  -H 'content-type: application/json' \
+  -d '{"title":"We soon add education meet ever strategy protect.","maxScore":79,"minScore":4,"description":"Industry town last big. Current hit grow expert long play rule.\nLittle concern behind everyone sign push away charge. Help tell let we change huge power. Usually according create use during popular.","estimatedTime":"1 weeks","previewFileId":"17b1918f-347d-470f-bfd3-959b091cf063","createdByUserId":"b64a971e-c2d3-4b61-b0c4-0ec457da53bf"}'
