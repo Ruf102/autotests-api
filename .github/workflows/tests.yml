@@ -58,7 +58,7 @@ jobs:
         run: |
           swagger-coverage-tool save-report
 
-      - name: Cache Coverage  history
+      - name: Cache Coverage history
         if: always()
         uses: actions/cache/save@v5
         with:
