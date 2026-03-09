@@ -1,0 +1,20 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     COURSE_ASSERTIONS:course.py:106 Check create course response
+INFO     BASE_ASSERTIONS:base.py:36 Check that title equals to Color assume sing husband seem after.
+INFO     BASE_ASSERTIONS:base.py:36 Check that max_score equals to 62
+INFO     BASE_ASSERTIONS:base.py:36 Check that min_score equals to 18
+INFO     BASE_ASSERTIONS:base.py:36 Check that description equals to Fine message former thing.
+Successful whatever political example. Yet respond heart. Executive person than condition.
+Agency perhaps low every pull. Popular dream part interest.
+INFO     BASE_ASSERTIONS:base.py:36 Check that estimated_time equals to 7 weeks
+INFO     BASE_ASSERTIONS:base.py:36 Check that preview_file_id equals to 84378f46-1e2d-441d-bfbd-5d2cf1f2f1b2
+INFO     BASE_ASSERTIONS:base.py:36 Check that created_by_user_id equals to d2acb41a-5d44-44ef-b975-fafa290ae5df
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

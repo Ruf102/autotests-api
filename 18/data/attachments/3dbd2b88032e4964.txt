@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDE1OjI5OjU1LjY4MjgyMiIsInVzZXJfaWQiOiI1ZTBkYmIxNy0yZGZkLTRmMzMtOTZmMy0xNTNmNDc2MGM5NjMifQ.V_Oq5EcJswFzZ3cs7sxV9fNryj6iTt5TIkF76se3sTc' \
+  -H 'content-length: 366' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Across common quality support just realize.","maxScore":59,"minScore":21,"description":"Change child career reflect agency land memory. Use care plant mouth involve. Friend way administration. Whom top special wrong.","estimatedTime":"5 weeks","previewFileId":"573c3f71-9f0d-4847-9daf-d9f9025fbd63","createdByUserId":"5e0dbb17-2dfd-4f33-96f3-153f4760c963"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDE1OjI5OjU3LjUwMzc1MSIsInVzZXJfaWQiOiJiNTk1N2MyZS0yZjVkLTQ5Y2ItOGRlOS1lMWI2MmQ2OWViYTkifQ.-rCy54QxFdkMMngmrdDZn061nauZizCk2JZM0LdNmHU' \
+  -H 'content-length: 403' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Understand develop pull determine green wonder guy.","maxScore":63,"minScore":29,"description":"Price consider without sign reflect natural be draw. Against factor decision doctor actually significant. Next service late family view. Mean drop know high.","estimatedTime":"7 weeks","previewFileId":"6d0e312e-90a4-420c-8d87-552d3d8830c5","createdByUserId":"b5957c2e-2f5d-49cb-8de9-e1b62d69eba9"}'

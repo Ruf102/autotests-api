@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDE1OjI5OjU2LjkyMjMwNSIsInVzZXJfaWQiOiI0YTQ1MmI5NS1iN2Y5LTQxZWMtODFiOC05YzU5NDRiM2VmNzkifQ.U2PeaZyBEUB5HwOVVpYaSQakGP5BE0OWgRQiKIo-HO8' \
+  -H 'content-length: 351' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Down find my meet stay.","maxScore":59,"minScore":12,"description":"Enjoy most health my a season. Either sport hope use pick.\nMajor wind up hand civil use. Officer whether wife building style allow.","estimatedTime":"10 weeks","previewFileId":"3c5f5129-b83b-40ee-825c-b4805f843185","createdByUserId":"4a452b95-b7f9-41ec-81b8-9c5944b3ef79"}'

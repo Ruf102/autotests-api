@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/17b03e54-b4c3-45e1-9834-c18597ec3771' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDE1OjI5OjUzLjgzNjA2MiIsInVzZXJfaWQiOiI5NTQyZmJhMS01OWY3LTQzZmItODUwZS1jZWFlMDE1M2IwNDUifQ.7XfvPBUFFQRYAxcgSyJtKb9SUO4cZKlLiZYNXYtXkv4' \
+  -H 'content-length: 317' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Finish available truth method guy operation crime personal.","maxScore":62,"minScore":8,"description":"Watch a spring happy create everyone agreement go. Total pattern music paper. Including military hot space wife data occur.\nIts stuff show throughout. Billion them decide job.","estimatedTime":"3 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/bf68705a-5487-4cd6-b663-7b4d695022ab' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDE1OjI5OjU1LjY4MjgyMiIsInVzZXJfaWQiOiI1ZTBkYmIxNy0yZGZkLTRmMzMtOTZmMy0xNTNmNDc2MGM5NjMifQ.V_Oq5EcJswFzZ3cs7sxV9fNryj6iTt5TIkF76se3sTc' \
+  -H 'content-length: 317' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Great account health white especially goal treat.","maxScore":64,"minScore":29,"orderIndex":66,"description":"On change such newspaper author him process. Cold parent beyond manage through. Management keep machine example campaign. Piece nation success form hit alone name first.","estimatedTime":"7 weeks"}'

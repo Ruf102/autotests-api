@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDE1OjI5OjUzLjI1NDg0MSIsInVzZXJfaWQiOiJjMGNiMTk2NC1iZDBkLTQ5ZDUtODM4Yy1jOWNhMDY0MzhiNTMifQ.Ju5pZg1TaFGnFT0smOMAwbMvu2lOjUUgJbHk4pKpsl4' \
+  -H 'content-length: 388' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Month morning north assume.","maxScore":71,"minScore":19,"description":"Must father front at argue yet third. Physical item condition choose. Account amount dog car guess.\nConsumer able north its region instead south. Again fast sit all.","estimatedTime":"3 weeks","previewFileId":"bf68a730-5132-4522-a47a-4f7950b87268","createdByUserId":"c0cb1964-bd0d-49d5-838c-c9ca06438b53"}'

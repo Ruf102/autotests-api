@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDE1OjI5OjU2LjkyMjMwNSIsInVzZXJfaWQiOiI0YTQ1MmI5NS1iN2Y5LTQxZWMtODFiOC05YzU5NDRiM2VmNzkifQ.U2PeaZyBEUB5HwOVVpYaSQakGP5BE0OWgRQiKIo-HO8' \
+  -H 'content-length: 288' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Indeed picture degree.","courseId":"bd158b00-d3cc-4312-b45e-5031896b426f","maxScore":69,"minScore":28,"orderIndex":55,"description":"Price all brother lay his investment put. Son draw measure yard. Letter usually heart image everything fire next pay.","estimatedTime":"9 weeks"}'

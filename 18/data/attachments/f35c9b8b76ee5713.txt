@@ -1,0 +1,34 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     SWAGGER_COVERAGE_TRACKER_STORAGE:storage.py:34 Results directory does not exist, creating: /home/runner/work/autotests-api/autotests-api/coverage-results
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:28 Make GET request to http://localhost:8000/api/v1/courses?userId=c0cb1964-bd0d-49d5-838c-c9ca06438b53
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses?userId=c0cb1964-bd0d-49d5-838c-c9ca06438b53
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     COURSE_ASSERTIONS:course.py:87 Check get courses response
+INFO     BASE_ASSERTIONS:base.py:72 Check that length of "courses" equals to 1
+INFO     COURSE_ASSERTIONS:course.py:23 Check course
+INFO     BASE_ASSERTIONS:base.py:36 Check that id equals to b86acbd4-e73b-4d3e-8ab1-d12f5f9257f9
+INFO     BASE_ASSERTIONS:base.py:36 Check that title equals to Month morning north assume.
+INFO     BASE_ASSERTIONS:base.py:36 Check that max_score equals to 71
+INFO     BASE_ASSERTIONS:base.py:36 Check that min_score equals to 19
+INFO     BASE_ASSERTIONS:base.py:36 Check that description equals to Must father front at argue yet third. Physical item condition choose. Account amount dog car guess.
+Consumer able north its region instead south. Again fast sit all.
+INFO     BASE_ASSERTIONS:base.py:36 Check that estimated_time equals to 3 weeks
+INFO     FILES_ASSERTIONS:files.py:39 Check file
+INFO     BASE_ASSERTIONS:base.py:36 Check that id equals to bf68a730-5132-4522-a47a-4f7950b87268
+INFO     BASE_ASSERTIONS:base.py:36 Check that url equals to http://localhost:8000/static/tests/1315e4bb-825f-43e4-95af-46b3561a5e63.png
+INFO     BASE_ASSERTIONS:base.py:36 Check that filename equals to 1315e4bb-825f-43e4-95af-46b3561a5e63.png
+INFO     BASE_ASSERTIONS:base.py:36 Check that directory equals to tests
+INFO     USERS_ASSERTIONS:users.py:35 Check user
+INFO     BASE_ASSERTIONS:base.py:36 Check that id equals to c0cb1964-bd0d-49d5-838c-c9ca06438b53
+INFO     BASE_ASSERTIONS:base.py:36 Check that email equals to mwilliams@example.com
+INFO     BASE_ASSERTIONS:base.py:36 Check that last_name equals to Bell
+INFO     BASE_ASSERTIONS:base.py:36 Check that first_name equals to Cynthia
+INFO     BASE_ASSERTIONS:base.py:36 Check that middle_name equals to Mark
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

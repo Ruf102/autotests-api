@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDE1OjI5OjUzLjgzNjA2MiIsInVzZXJfaWQiOiI5NTQyZmJhMS01OWY3LTQzZmItODUwZS1jZWFlMDE1M2IwNDUifQ.7XfvPBUFFQRYAxcgSyJtKb9SUO4cZKlLiZYNXYtXkv4' \
+  -H 'content-length: 355' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ready pattern situation.","maxScore":64,"minScore":30,"description":"Very energy happen somebody opportunity. It leader off thus charge. Rise read yet successful already culture board. My reach meet skill.","estimatedTime":"1 weeks","previewFileId":"96d20fe3-ce22-479e-aba5-78a959a742b5","createdByUserId":"9542fba1-59f7-43fb-850e-ceae0153b045"}'

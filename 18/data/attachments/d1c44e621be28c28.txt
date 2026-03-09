@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDE1OjI5OjU0LjUwNTkyNyIsInVzZXJfaWQiOiJkMmFjYjQxYS01ZDQ0LTQ0ZWYtYjk3NS1mYWZhMjkwYWU1ZGYifQ.8_TSDnNuolAlTClGj1CBA8lJ3YW_hWJqOqVXc8AAdFY' \
+  -H 'content-length: 411' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Color assume sing husband seem after.","maxScore":62,"minScore":18,"description":"Fine message former thing.\nSuccessful whatever political example. Yet respond heart. Executive person than condition.\nAgency perhaps low every pull. Popular dream part interest.","estimatedTime":"7 weeks","previewFileId":"84378f46-1e2d-441d-bfbd-5d2cf1f2f1b2","createdByUserId":"d2acb41a-5d44-44ef-b975-fafa290ae5df"}'

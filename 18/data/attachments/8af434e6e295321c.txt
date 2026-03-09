@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDE1OjI5OjU2LjI3NDMwMCIsInVzZXJfaWQiOiIwMTkxZmIyMC03MjBjLTQzYWYtYjhiMC02YjgzMzY5YzMzNmYifQ.DX8HiwHyR9Jikj-z1iXsc7v5HcNJR1SQW9OKDeywR_I' \
+  -H 'content-length: 422' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Seven the last trial state.","maxScore":61,"minScore":19,"description":"Field table admit very plant tough really. Live foreign top then agreement. Forget like about may herself between vote.\nSuggest yard growth cultural strategy night. Goal cell wife church pass toward.","estimatedTime":"3 weeks","previewFileId":"b3ac2cfd-a2ad-4638-b282-cfe2ca91abc4","createdByUserId":"0191fb20-720c-43af-b8b0-6b83369c336f"}'
